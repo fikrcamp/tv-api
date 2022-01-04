@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  background-color: #141414;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav li {
+  list-style: none;
+  padding: 0px 6px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.avatar {
+  height: 60px;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px;
+}
+.search-box {
+  margin-top: 10px;
+  padding: 5px 5px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.main {
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.movies-section {
+  display: flex;
+  margin: 15px 50px;
+}
+
+.movie-card {
+  margin: 0px 10px;
+}
