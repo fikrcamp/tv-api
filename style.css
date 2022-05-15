@@ -62,3 +62,16 @@
 .movie-card {
   margin: 0px 10px;
 }
+
+.movie-image {
+  height: 250px;
+}
+
+.movie-image img {
+  height: inherit;
+}
+
+.movie-heading {
+  font-weight: bold;
+  color: red;
+}
