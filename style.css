@@ -56,7 +56,9 @@
 
 .movies-section {
   display: flex;
-  margin: 15px 50px;
+  margin: 25px 50px;
+  row-gap: 30px;
+  flex-wrap: wrap;
 }
 
 .movie-card {
@@ -75,3 +77,4 @@
   font-weight: bold;
   color: red;
 }
+
