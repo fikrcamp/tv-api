@@ -48,6 +48,14 @@
   border-radius: 2px;
 }
 
+#search{
+    background: red;
+    border:none;
+    padding:7px 12px;
+    color:white;
+    font-size:14px
+}
+
 .main {
   background: black;
   color: white;
