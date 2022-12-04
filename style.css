@@ -60,19 +60,30 @@
   background: black;
   color: white;
   min-height: 100vh;
+  
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+margin: 0px 50px;
+justify-content: center;
+  
 }
 
 .movies-section {
-  display: flex;
-  margin: 15px 50px;
+  display: grid;
+ 
+  margin: 15px -3px;
+  
 }
 
 .movie-card {
-  margin: 0px 10px;
+  margin: 0px 2px;
 }
 
 .movie-image {
   height: 250px;
+  width: 200px;
 }
 
 .movie-image img {
@@ -82,4 +93,7 @@
 .movie-heading {
   font-weight: bold;
   color: red;
+}
+button{
+  cursor: pointer;
 }
