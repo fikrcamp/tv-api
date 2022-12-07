@@ -65,6 +65,7 @@
 .movies-section {
   display: flex;
   margin: 15px 50px;
+  flex-wrap: wrap;
 }
 
 .movie-card {
