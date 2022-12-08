@@ -49,6 +49,7 @@
 }
 
 #search{
+  cursor: pointer;
     background: red;
     border:none;
     padding:7px 12px;
@@ -64,11 +65,15 @@
 
 .movies-section {
   display: flex;
-  margin: 15px 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* margin: 15px 30px; */
 }
 
 .movie-card {
-  margin: 0px 10px;
+  margin: 0px 4px;
+  border: 4px solid red;
 }
 
 .movie-image {
@@ -81,5 +86,7 @@
 
 .movie-heading {
   font-weight: bold;
-  color: red;
+  color: rgb(90, 5, 5);
 }
+
+
