@@ -37,6 +37,7 @@
   flex-direction: column;
   align-items: center;
   padding: 25px 0px;
+  
 }
 .search-box {
   margin-top: 10px;
@@ -64,6 +65,7 @@
 
 .movies-section {
   display: flex;
+  flex-wrap: wrap;
   margin: 15px 50px;
 }
 
@@ -82,4 +84,21 @@
 .movie-heading {
   font-weight: bold;
   color: red;
+}
+.details{
+  font-size: 14px;
+}
+
+.button{
+  padding:4px 10px;
+  font-size:13px;
+  color:white;
+  background-color:red;
+  border: none;
+  margin: 4px 0px;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
 }
