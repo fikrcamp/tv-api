@@ -37,7 +37,6 @@
   flex-direction: column;
   align-items: center;
   padding: 25px 0px;
-  
 }
 .search-box {
   margin-top: 10px;
@@ -49,14 +48,6 @@
   border-radius: 2px;
 }
 
-#search{
-    background: red;
-    border:none;
-    padding:7px 12px;
-    color:white;
-    font-size:14px
-}
-
 .main {
   background: black;
   color: white;
@@ -65,8 +56,9 @@
 
 .movies-section {
   display: flex;
+  margin: 25px 50px;
+  row-gap: 30px;
   flex-wrap: wrap;
-  margin: 15px 50px;
 }
 
 .movie-card {
@@ -84,21 +76,4 @@
 .movie-heading {
   font-weight: bold;
   color: red;
-}
-.details{
-  font-size: 14px;
-}
-
-.button{
-  padding:4px 10px;
-  font-size:13px;
-  color:white;
-  background-color:red;
-  border: none;
-  margin: 4px 0px;
-}
-
-.rating{
-  display: flex;
-  align-items: center;
 }
